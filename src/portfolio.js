@@ -324,23 +324,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Calicut University",
+      logo: require("./assets/images/calicutLogo.jpg"),
+      subHeader: "Bachelor of commerse",
+      duration: "july 2018 - march 2021",
+      desc: "Speciallized in co-operation and e commerse management",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -372,30 +363,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "MERN Stack Developer",
+      company: "Self Stack",
+      companylogo: require("./assets/images/self_stack_logo.jpeg"),
+      date: "June 2023 – Present",
+      desc: "Contributed as a MERN Stack Intern at Self Stack in Calicut, actively participating in the development and improvement of web applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Applied skills in MongoDB, Express.js, React, and Node.js within a collaborative team environment",
+        "Involved in various aspects, including feature implementation and testing, to ensure the delivery of effective and reliable solutions"
+      ]
+    },    
+    {
+      role: "Python Full Stack Developer",
+      company: "Techolas Technologies",
+      companylogo: require("./assets/images/techolas_technologies_logo.png"),
+      date: "Previous date – End date",
+      desc: "Contributed as a Python Full Stack Developer at Techolas Technologies in Calicut, focusing on building and maintaining web applications using Django.",
+      descBullets: [
+        "Developed and maintained scalable web applications using Django framework",
+        "Collaborated with cross-functional teams to define, design, and ship new features",
+        "Ensured the performance, quality, and responsiveness of applications",
+        "Implemented RESTful APIs and integrated them with frontend components",
+        "Optimized applications for maximum speed and scalability"
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
