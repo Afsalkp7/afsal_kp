@@ -401,29 +401,133 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some projects that are described in my resume",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/outstockFurnitureLogo.png"),
+      projectName: "Outstock Furniture",
+      projectDesc: "A furniture e-commerce website using Node.js and MongoDB. Features secure registration, login, interactive product filtering, and intuitive cart and address management. Integrated Razorpay for smooth and secure transactions.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://outstockfurniture.world/"
+        },
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/Afsalkp7/out_stock/tree/main"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/taskTrackerLogo.png"),
+      projectName: "Task Tracker",
+      projectDesc: "A web app built with Node.js, Express, MongoDB, and React for managing tasks. Hosted on Vercel.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://task-tracker-ui.vercel.app/"
+        },
+        {
+          name: "GitHub Repo (Frontend)",
+          url: "https://github.com/Afsalkp7/task-tracker-ui"
+        },
+        {
+          name: "GitHub Repo (Backend)",
+          url: "https://github.com/Afsalkp7/task-tracker/tree/main"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/instaQRLogo.png"),
+      projectName: "Insta-QR",
+      projectDesc: "Full-stack application enabling Instagram access through QR code generation. Backend built with Node.js and Express, frontend developed in React.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://instagram-qr-code-generator.vercel.app/"
+        },
+        {
+          name: "GitHub Repo (Frontend)",
+          url: "https://github.com/Afsalkp7/qr-code-generator"
+        },
+        {
+          name: "GitHub Repo (Backend)",
+          url: "https://github.com/Afsalkp7/instagram-qr-backend/tree/main"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/eventCalendarLogo.jpg"),
+      projectName: "Event Calendar",
+      projectDesc: "React app with react-big-calendar for event management. Features for adding, editing, and deleting events.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://react-calendar-henna.vercel.app/"
+        },
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/Afsalkp7/react-calendar"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/breezeWeatherLogo.png"),
+      projectName: "Breeze Weather",
+      projectDesc: "Mobile-focused weather application using React and RapidAPI for real-time weather data retrieval.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://breeze-rouge.vercel.app/"
+        },
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/Afsalkp7/Breeze"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/foodDeliveryAppLogo.png"),
+      projectName: "Food Delivery App",
+      projectDesc: "React-based food delivery app with shopping cart feature using Redux for state management. Integrated Swiggy live API.",
+      footerLink: [
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/Afsalkp7/food-delivery-app-react"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/studentDataCollectionLogo.jpg"),
+      projectName: "Student Data Collection",
+      projectDesc: "Node.js and REST API app for teachers to manage student details.",
+      footerLink: [
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/Afsalkp7/CRUD_NODE"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/userManagementLogo.png"),
+      projectName: "User Management",
+      projectDesc: "User management application with registration and login page using Node.js, Express, and MongoDB.",
+      footerLink: [
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/Afsalkp7/Login_mongo"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/budgetCalculatorLogo.webp"),
+      projectName: "Budget Calculator",
+      projectDesc: "Budget calculator to add income and expenses, displaying data in table and pie chart using JavaScript and Chart.js.",
+      footerLink: [
+        {
+          name: "GitHub Repo",
+          url: "https://github.com/Afsalkp7/budget_calculator"
         }
       ]
     }
@@ -513,7 +617,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -532,7 +636,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -545,7 +649,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -554,22 +658,22 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8089808847",
+  email_address: "afsalkpmanu31@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
