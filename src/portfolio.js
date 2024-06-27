@@ -539,62 +539,64 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Upcoming Projects ⚡⚡"),
+  subtitle: "Projects under processing",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Loompanics",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Loompanics is an online bookstore and library management system. It offers memberships for differently-abled individuals based on their UDID number. Built with Node.js, Express.js, and React.",
+      image: require("./assets/images/loompanicsLogo.jpg"),
+      imageAlt: "Loompanics Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Figma design",
+          url: "https://www.figma.com/design/3zjYYjqc007U0RXAhJNOH3/Loompanics?node-id=72-1152&t=9eeU6gKwTUWcROXM-1"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Database design",
+          url: "https://drive.google.com/file/d/1TLGH2dLPGvYOKzPipDZIJ6Op1ZOSuNMa/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "AlgoMatch",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "AlgoMatch is a job-seeking platform with roles for admin, organization, recruiter, and candidate. It is built with Node.js, Express, React, and Flutter for the mobile app.",
+      image: require("./assets/images/algomatchLogo.jpg"),
+      imageAlt: "AlgoMatch Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Figma Design",
+          url: "https://www.figma.com/design/MvjOjFKB0ag2Mdweuy8cUY/AlgoMatch?node-id=0-1&t=dXgeYgc4cx7HbKME-1"
+        },
+        {
+          name: "Database design",
+          url: "https://drive.google.com/file/d/1Uh7JHsQf3oW_66xpI1Umc03VTSECtaf4/view?usp=sharing"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "fruiteee",
+      subtitle:
+        "fruiteee is an online store for fruits and vegetables. It is built with Node.js, Express, React, and Redux.",
+      image: require("./assets/images/fruiteeeLogo.png"),
+      imageAlt: "fruiteee Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "GitHub Repo",
+          url: "https://github.com/Afsalkp7/Fruiteee-frontend"
+        },{
+          name: "Live",
+          url: 'https://fruiteee-frontend.vercel.app/'
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Blogs Section
 
